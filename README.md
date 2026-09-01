@@ -1,55 +1,32 @@
 # FIFA World Cup 2026 Player Performance ⚽📊
 
-An interactive data analytics and machine learning dashboard built to explore FIFA World Cup 2026 player performance data.
+An interactive data analysis and machine learning dashboard built to explore FIFA 2026 player performance data.
 
 ## Project Overview
 
-This project turns player performance data into useful insights through data analysis, visualization, and machine learning.
+This project uses player-level data to explore performance patterns through data cleaning, exploratory analysis, visualization, and machine learning.
 
-The dashboard allows users to explore player statistics, compare players and countries, understand performance patterns, and use machine learning models to predict player performance.
+The Streamlit dashboard lets users explore player statistics, compare performance-related information, and test machine learning models for performance prediction.
 
 ## Key Features
 
-### 📊 Dashboard
+- Dashboard with player and dataset summary statistics
+- Player data exploration and filtering
+- Exploratory Data Analysis (EDA)
+- Player and country comparisons
+- Machine learning model comparison
+- Performance prediction
+- Feature importance analysis
 
-* Total players and summary statistics
-* Average performance metrics
-* Clean interactive dashboard
-
-### 🔎 Data Exploration
-
-* Browse the player dataset
-* Search and filter player information
-* Explore individual performance records
-
-### 📈 Exploratory Data Analysis
-
-The project explores questions such as:
-
-* Which players have the highest goals?
-* How do countries compare?
-* How does age relate to performance?
-* Which factors are related to player performance?
-
-Interactive charts are used to make the analysis easier to understand.
-
-### 🤖 Machine Learning
+## Machine Learning
 
 The project includes:
 
-* Linear Regression
-* Decision Tree
-* Random Forest
+- Linear Regression
+- Decision Tree Regressor
+- Random Forest Regressor
 
-The models are compared to find a suitable model for predicting player performance.
-
-### 🔮 Prediction
-
-Users can enter player-related information and get a predicted performance score through the dashboard.
-
-### 📌 Model Insights
-
-Feature importance is also used to understand which variables have a stronger influence on the model's predictions.
+The models are compared to understand which approach performs better on the available data.
 
 ## Dataset
 
@@ -59,31 +36,31 @@ The project uses:
 fifa_world_cup_2026_player_performance.csv
 ```
 
-The dataset contains player-level information such as:
+The dataset includes player-related information such as:
 
-* Player name
-* Country
-* Age
-* Matches played
-* Goals
-* Assists
-* Minutes played
-* Performance score
+- Player name
+- Country
+- Age
+- Matches played
+- Goals
+- Assists
+- Minutes played
+- Performance score
 
 ## Tech Stack
 
-* Python
-* Pandas
-* NumPy
-* Plotly
-* Scikit-learn
-* Streamlit
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Streamlit
+- Matplotlib
+- Seaborn
 
 ## Project Structure
 
 ```text
 FIFA-2026-Player-Performance/
-│
 ├── app.py
 ├── fifa_world_cup_2026_player_performance.csv
 ├── requirements.txt
@@ -105,7 +82,7 @@ cd FIFA-2026-Player-Performance
 pip install -r requirements.txt
 ```
 
-### 3. Run the application
+### 3. Run the Streamlit app
 
 ```bash
 streamlit run app.py
@@ -117,22 +94,23 @@ https://fifa-2026-player-performance-6fb8cerkerraedvjfhvcn2.streamlit.app/
 
 ## What I Learned
 
-This project gave me practical experience with:
+This project helped me practice:
 
-* Data cleaning and exploration
-* Interactive data visualization
-* Feature selection
-* Regression models
-* Model comparison
-* Building Streamlit applications
+- Data cleaning and preprocessing
+- Exploratory Data Analysis
+- Data visualization
+- Feature selection
+- Regression models
+- Model comparison
+- Building interactive Streamlit applications
 
 ## Future Improvements
 
-* Add more advanced machine learning models
-* Add player-to-player comparison
-* Add team-level analysis
-* Add real-time football data
-* Improve prediction performance
+- Add more advanced models
+- Improve player comparison features
+- Add team-level analysis
+- Improve model performance
+- Add more interactive visualizations
 
 ## Author
 
