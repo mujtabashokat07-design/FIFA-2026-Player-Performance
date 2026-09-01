@@ -1,202 +1,141 @@
-# ⚽ FIFA World Cup 2026 Player Performance Dashboard
+# FIFA World Cup 2026 Player Performance ⚽📊
 
-![Python](https://img.shields.io/badge/Python-3.10-blue)
-![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
-![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-orange)
-![Status](https://img.shields.io/badge/Status-Completed-success)
+An interactive data analytics and machine learning dashboard built to explore FIFA World Cup 2026 player performance data.
 
----
+## Project Overview
 
-## 🚀 Live Demo
+This project turns player performance data into useful insights through data analysis, visualization, and machine learning.
 
-👉 *(https://fifa-2026-player-performance-6fb8cerkerraedvjfhvcn2.streamlit.app/)*
+The dashboard allows users to explore player statistics, compare players and countries, understand performance patterns, and use machine learning models to predict player performance.
 
----
+## Key Features
 
-## 📌 Project Description
+### 📊 Dashboard
 
-This project is a **Data Analytics + Machine Learning + Interactive Dashboard** built using the *FIFA World Cup 2026 Player Performance dataset*.
+* Total players and summary statistics
+* Average performance metrics
+* Clean interactive dashboard
 
-The goal is to transform raw football data into **actionable insights** and build a system that can **predict player performance** using machine learning models.
+### 🔎 Data Exploration
 
----
+* Browse the player dataset
+* Search and filter player information
+* Explore individual performance records
 
-## 🎯 Key Objectives
+### 📈 Exploratory Data Analysis
 
-* Analyze player performance trends
-* Compare countries and players
-* Identify important performance factors
-* Build predictive ML models
-* Create a professional interactive dashboard
+The project explores questions such as:
 
----
+* Which players have the highest goals?
+* How do countries compare?
+* How does age relate to performance?
+* Which factors are related to player performance?
 
-## 📊 Dataset Overview
-
-* **File:** `fifa_world_cup_2026_player_performance.csv`
-* Contains player-level data such as:
-
-  * Player Name
-  * Country
-  * Age
-  * Matches Played
-  * Goals
-  * Assists
-  * Minutes Played
-  * Performance Score
-
----
-
-## 🧠 Features
-
-### 🏠 Dashboard
-
-* KPI metrics (Total Players, Avg Goals, etc.)
-* Clean and modern UI
-
-### 📊 Data Exploration
-
-* Interactive dataset viewer
-* Filtering & search functionality
-
-### 📈 EDA (Exploratory Data Analysis)
-
-* Top players by goals
-* Country-wise analysis
-* Age vs performance
-* Correlation heatmap
-* Interactive Plotly charts
+Interactive charts are used to make the analysis easier to understand.
 
 ### 🤖 Machine Learning
 
-* Models used:
+The project includes:
 
-  * Linear Regression
-  * Decision Tree
-  * Random Forest
-* Model evaluation & comparison
-* Best model selection
+* Linear Regression
+* Decision Tree
+* Random Forest
 
-### 🔮 Prediction System
+The models are compared to find a suitable model for predicting player performance.
 
-* User input form
-* Real-time performance prediction
+### 🔮 Prediction
 
-### 📊 Model Insights
+Users can enter player-related information and get a predicted performance score through the dashboard.
 
-* Feature importance visualization
-* Model explanation
+### 📌 Model Insights
 
----
+Feature importance is also used to understand which variables have a stronger influence on the model's predictions.
 
-## 🛠️ Tech Stack
+## Dataset
 
-| Category         | Tools Used    |
-| ---------------- | ------------- |
-| Language         | Python        |
-| Data Analysis    | Pandas, NumPy |
-| Visualization    | Plotly        |
-| Machine Learning | Scikit-learn  |
-| Web App          | Streamlit     |
+The project uses:
 
----
+```text
+fifa_world_cup_2026_player_performance.csv
+```
 
-## 📂 Project Structure
+The dataset contains player-level information such as:
 
-```bash
-📁 fifa-worldcup-analytics
+* Player name
+* Country
+* Age
+* Matches played
+* Goals
+* Assists
+* Minutes played
+* Performance score
+
+## Tech Stack
+
+* Python
+* Pandas
+* NumPy
+* Plotly
+* Scikit-learn
+* Streamlit
+
+## Project Structure
+
+```text
+FIFA-2026-Player-Performance/
 │
-├── app.py                  # Main Streamlit app
-├── data/
-│   └── fifa_world_cup_2026_player_performance.csv
-├── models/                # Saved ML models (optional)
-├── notebooks/             # Google Colab / Jupyter files
+├── app.py
+├── fifa_world_cup_2026_player_performance.csv
 ├── requirements.txt
 └── README.md
 ```
 
----
+## Run Locally
 
-## ⚙️ Installation & Setup
-
-### 1️⃣ Clone Repository
+### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/fifa-worldcup-dashboard.git
-cd fifa-worldcup-dashboard
+git clone https://github.com/mujtabashokat07-design/FIFA-2026-Player-Performance.git
+cd FIFA-2026-Player-Performance
 ```
 
-### 2️⃣ Install Dependencies
+### 2. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3️⃣ Run App
+### 3. Run the application
 
 ```bash
 streamlit run app.py
 ```
 
----
+## Live Demo
 
-## 🌐 Deployment
+https://fifa-2026-player-performance-6fb8cerkerraedvjfhvcn2.streamlit.app/
 
-This project can be deployed on:
+## What I Learned
 
-* Streamlit Cloud
-* Render
-* Replit
+This project gave me practical experience with:
 
----
+* Data cleaning and exploration
+* Interactive data visualization
+* Feature selection
+* Regression models
+* Model comparison
+* Building Streamlit applications
 
-## 🎨 UI/UX Highlights
+## Future Improvements
 
-* Dark modern dashboard theme
-* Smooth navigation
-* Interactive charts
-* Clean layout (SaaS-style design)
+* Add more advanced machine learning models
+* Add player-to-player comparison
+* Add team-level analysis
+* Add real-time football data
+* Improve prediction performance
 
----
+## Author
 
-## 📈 Sample Use Cases
+**Mujtaba Shokat**
 
-* Player performance comparison
-* Country-wise analysis
-* Sports analytics learning project
-* Portfolio project for Data Science
-
----
-
-## 📌 Future Improvements
-
-* Add Deep Learning models
-* Real-time API integration
-* Player comparison tool
-* Advanced animations
-
----
-
-## 👤 Author
-
-**Mujtaba Shokat Hayat**
-🔗 GitHub: https://github.com/mujtabashokat07-design
-🔗 LinkedIn: https://www.linkedin.com/in/mujtaba-shokat-hayat-a56b17389/
-
----
-
-## ⭐ Support
-
-If you found this project helpful:
-
-* ⭐ Star this repository
-* 🔁 Share with others
-* 💬 Give feedback
-
----
-
-## 💡 Final Note
-
-This project showcases my skills in **Data Analytics, Machine Learning, and Dashboard Development** — turning raw data into meaningful insights with a real-world application.
-
----
+Aspiring Data Scientist | Machine Learning & AI Enthusiast
